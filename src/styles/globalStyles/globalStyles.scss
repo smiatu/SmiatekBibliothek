@@ -1,0 +1,7 @@
+@import 'globalStylesVariables';
+
+//tutaj moge globalnie odwolac sie do styli, ktore beda nadane w globalStylesVariables i tam beda odwolywac sie do tokenow z design
+
+html * {
+    box-sizing: border-box;
+}
