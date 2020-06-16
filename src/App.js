@@ -1,23 +1,16 @@
 import React from 'react';
 import './App.css';
+import MainPanel from './layoutModule/components/mainPanel/mainPanel';
 
 //TODO
-//budowa modulow, css osobny dla kazdego wyswietlanego modulu,
-//ponizej render warunkowy w zaleznosci od state (zalogowany, niezalogowany itp)
+//przeniesienie strony glownej do mainPanel, tam odniesienia
+//do OSOBNO headera, osobno tresci, osobno paneli bocznych
 const App = props => {
   
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Smiatek-Bibliothek
-        </p>
-      </header>
-      <div className="App-body">
-        <p>
-          Biblioteka od znajomych, dla znajomych. Daj znać co możesz pożyczyć innym, odezwij się kiedy chcesz coś przeczytać.
-        </p>
-      </div>
+      <MainPanel />
+      
     </div>
   )
 }

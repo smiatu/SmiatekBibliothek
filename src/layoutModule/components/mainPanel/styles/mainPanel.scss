@@ -1,0 +1,22 @@
+@import 'mainPanelVariables.scss';
+
+//TODO zmienic wartosci na design system
+
+.main-panel {
+    text-align: center;
+    background-color: $main-panel-background-color;
+    color: $main-panel-text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__header {
+        min-height: 20vh;
+        font-size: calc(10px + 2vmin);
+    }
+    &__body {
+        min-height: 80vh;
+        font-size: calc(10px + 2vmin);
+    }
+}
