@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "Zbrodnia i kara",
+            "author": "Fiodor Dostojewski",
+            "year": 1887
+        },
+        {
+            "id": 2,
+            "name": "Zmartwychwstanie",
+            "author": "Lew Tołstoj",
+            "year": 1899
+        }
+    ]
+}
